@@ -8,7 +8,7 @@ In Revit 2017, it displays Revit database element information in a very rough cu
 
 ![WinTooltip custom tooltip in Revit](img/wintooltip_2017_single.png "WinTooltip custom tooltip in Revit")
 
-If you are really lucky, this sample and Revit itself will agree on what element you are pointing at and both will display information about the same item simultaneously:
+If you are lucky, WinCoords and Revit will agree on what element you are pointing at and both display information about the same item simultaneously:
 
 ![Simultaneous Revit and WinTooltip tooltips](img/wintooltip_2017_duplicate.png "Simultaneous Revit and WinTooltip tooltips")
 
