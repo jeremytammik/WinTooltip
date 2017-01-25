@@ -2,9 +2,9 @@
 
 Revit .NET C# add-in implementing a custom tooltip using UIView and ray casting.
 
-First implemented in October 2012 to demonstrate and use the new Revit 2013 API features including the View API and `UIView` class.
+First implemented in October 2012 to demonstrate and make use of the new Revit 2013 API features including the View API and `UIView` class.
 
-In Revit 2017, it displays Revit database element information a very rough custom tooltip like this:
+In Revit 2017, it displays Revit database element information in a very rough custom tooltip like this:
 
 ![WinTooltip custom tooltip in Revit](img/wintooltip_2017_single.png "WinTooltip custom tooltip in Revit")
 
@@ -12,7 +12,7 @@ If you are really lucky, this sample and Revit itself will agree on what element
 
 ![Simultaneous Revit and WinTooltip tooltips](img/wintooltip_2017_duplicate.png "Simultaneous Revit and WinTooltip tooltips")
 
-For more information, please refer to the two discussions on:
+For more information, please refer to the two introductory discussions and implementation notes:
 
 - [UIView and Windows Device Coordinates](http://thebuildingcoder.typepad.com/blog/2012/06/uiview-and-windows-device-coordinates.html)
 - [UIView, Windows Coordinates, ReferenceIntersector and My Own Tooltip](http://thebuildingcoder.typepad.com/blog/2012/10/uiview-windows-coordinates-referenceintersector-and-my-own-tooltip.html)
