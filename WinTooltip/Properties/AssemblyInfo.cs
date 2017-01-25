@@ -37,6 +37,7 @@ using System.Runtime.InteropServices;
 // 2017-01-25 2017.0.0.0 flat migration to Revit 2017
 // 2017-01-25 2017.0.0.1 eliminated architecture mismatch warnings
 // 2017-01-25 2017.0.0.2 successful test and added version history
+// 2017-01-25 2017.0.0.3 readme enhancement and publication
 //
-[assembly: AssemblyVersion( "2017.0.0.2" )]
-[assembly: AssemblyFileVersion( "2017.0.0.2" )]
+[assembly: AssemblyVersion( "2017.0.0.3" )]
+[assembly: AssemblyFileVersion( "2017.0.0.3" )]
