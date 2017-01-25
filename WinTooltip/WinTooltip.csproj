@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -11,12 +11,13 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WinTooltip</RootNamespace>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -29,6 +30,7 @@
     <StartAction>Program</StartAction>
     <StartProgram>$(ProgramFiles)\Autodesk\Revit 2013\Program\Revit.exe</StartProgram>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -40,14 +42,15 @@
     <StartAction>Program</StartAction>
     <StartProgram>$(ProgramFiles)\Autodesk\Revit 2013\Program\Revit.exe</StartProgram>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="RevitAPI">
-      <HintPath>$(ProgramFiles)\Autodesk\Revit 2013\Program\RevitAPI.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files\Autodesk\Revit 2017\RevitAPI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
-      <HintPath>$(ProgramFiles)\Autodesk\Revit 2013\Program\RevitAPIUI.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files\Autodesk\Revit 2017\RevitAPIUI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -87,7 +90,7 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2013\WinTooltip.dll" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(ProjectDir)WinTooltip.addin" "$(AppData)\Autodesk\REVIT\Addins\2013"
-copy "$(ProjectDir)bin\debug\WinTooltip.dll" "$(AppData)\Autodesk\REVIT\Addins\2013"</PostBuildEvent>
+    <PostBuildEvent>copy "$(ProjectDir)WinTooltip.addin" "$(AppData)\Autodesk\REVIT\Addins\2017"
+copy "$(ProjectDir)bin\debug\WinTooltip.dll" "$(AppData)\Autodesk\REVIT\Addins\2017"</PostBuildEvent>
   </PropertyGroup>
 </Project>
