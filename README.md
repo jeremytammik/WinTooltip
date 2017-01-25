@@ -8,7 +8,7 @@ In Revit 2017, it displays Revit database element information in a very rough cu
 
 ![WinTooltip custom tooltip in Revit](img/wintooltip_2017_single.png "WinTooltip custom tooltip in Revit")
 
-If you are lucky, WinCoords and Revit will agree on what element you are pointing at and both display information about the same item simultaneously:
+If you are lucky, WinTooltip and Revit will agree on what element you are pointing at and both display information about the same item simultaneously:
 
 ![Simultaneous Revit and WinTooltip tooltips](img/wintooltip_2017_duplicate.png "Simultaneous Revit and WinTooltip tooltips")
 
@@ -28,7 +28,7 @@ to [avoid `Idling` in favour of external events except for one-off calls](http:/
 please refer to The Building Coder topic group
 on [`Idling` and external events for modeless access and driving Revit from outside](http://thebuildingcoder.typepad.com/blog/about-the-author.html#5.28).
 
-In its current form, WinCoords for Revit 2017 is still just a flat migration of the original Revit 2013 implementation with all its flaws, just as a proof of concept, and not suitable for production use.
+In its current form, WinTooltip for Revit 2017 is still just a flat migration of the original Revit 2013 implementation with all its flaws, just as a proof of concept, and not suitable for production use.
 
 
 ## Author
