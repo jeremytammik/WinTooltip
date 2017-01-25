@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Tooltips: On</Text>
+    <Description>Switch on WinTooltip</Description>
+    <Assembly>WinTooltip.dll</Assembly>
+    <FullClassName>WinTooltip.CmdTooltipOn</FullClassName>
+    <ClientId>7afd90ef-3579-4093-944c-30992428b653</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Tooltips: Off</Text>
+    <Description>Switch off WinTooltip</Description>
+    <Assembly>WinTooltip.dll</Assembly>
+    <FullClassName>WinTooltip.CmdTooltipOff</FullClassName>
+    <ClientId>10a4eba0-e0ed-43ee-bb37-3de2d3b3283c</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application WinTooltip</Name>
+    <Assembly>WinTooltip.dll</Assembly>
+    <FullClassName>WinTooltip.App</FullClassName>
+    <ClientId>00e550a7-8aa9-4cc4-85a6-4e017d48f14d</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
