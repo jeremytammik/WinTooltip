@@ -19,7 +19,7 @@ For more information, please refer to the two introductory discussions and imple
 
 Migrated to Revit 2017 in January 2017:
 
-- []()
+- [UIView Windows Coordinate Ray Casting Tooltip](http://thebuildingcoder.typepad.com/blog/2017/01/uiview-windows-coordinate-referenceintersector-tooltip.html)
 
 Please note that several important improvements on handling the `Idling` event properly that have been learned since 2012 have <b><i>not</i></b> been incorporated into this sample.
 
